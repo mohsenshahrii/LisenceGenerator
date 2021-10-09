@@ -1,0 +1,249 @@
+; Reg2Inf v0.45 - http://tinyurl.com/fgqyf
+[Version]
+Signature=$Windows NT$
+
+[Optional Components]
+MyRegTweaks
+
+[DefaultInstall]
+AddReg     =REGEntries.AddReg
+
+[MyRegTweaks]
+OptionDesc ="Registry Entries"
+Tip        ="Registry Entries"
+Modes      =0,1,2,3
+AddReg     =REGEntries.AddReg
+
+[REGEntries.AddReg]
+; Reg2Inf v0.45 - http://tinyurl.com/fgqyf
+HKCU,"AppEvents\Schemes",,0x0,".Default"
+HKCU,"AppEvents\Schemes\Apps\.Default",,0x0,"Windows"
+HKCU,"AppEvents\Schemes\Apps\.Default","DispFileName",0x0,"@mmsys.cpl,-5856"
+HKCU,"AppEvents\Schemes\Apps\.Default\.Default\.Current",,0x0,"%10%\media\Windows Ding.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\.Default\.Default",,0x0,"%10%\media\Windows Ding.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\.Default\Glass",,0x0,"%10%\%MS%\Glass\Windows Ding.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\.Default\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Ding.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\.Default\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Ding.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\AppGPFault\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\AppGPFault\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\AppGPFault\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\CCSelect",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\CCSelect\.current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\CCSelect\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\CCSelect\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Close\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Close\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Close\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\.Current",,0x0,"%10%\media\Windows Battery Critical.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\.Default",,0x0,"%10%\media\Windows Battery Critical.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\Glass",,0x0,"%10%\%MS%\Glass\Windows Battery Critical.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Battery Critical.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Battery Critical.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceConnect\.Current",,0x0,"%10%\media\Windows Hardware Insert.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceConnect\.Default",,0x0,"%10%\media\Windows Hardware Insert.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceConnect\Glass",,0x0,"%10%\%MS%\Glass\Windows Hardware Insert.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceConnect\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Hardware Insert.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceConnect\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Hardware Insert.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Current",,0x0,"%10%\media\Windows Hardware Remove.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceDisconnect\.Default",,0x0,"%10%\media\Windows Hardware Remove.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceDisconnect\Glass",,0x0,"%10%\%MS%\Glass\Windows Hardware Remove.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceDisconnect\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Hardware Remove.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceDisconnect\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Hardware Remove.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceFail\.Current",,0x0,"%10%\media\Windows Hardware Fail.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceFail\.Default",,0x0,"%10%\media\Windows Hardware Fail.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceFail\Glass",,0x0,"%10%\%MS%\Glass\Windows Hardware Fail.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceFail\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Hardware Fail.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\DeviceFail\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Hardware Fail.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\FaxBeep\.Current",,0x0,"%10%\media\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\FaxBeep\.Default",,0x0,"%10%\media\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\FaxBeep\Glass",,0x0,"%10%\%MS%\Glass\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\FaxBeep\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\FaxBeep\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\.Current",,0x0,"%10%\media\Windows Battery Low.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\.Default",,0x0,"%10%\media\Windows Battery Low.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\Glass",,0x0,"%10%\%MS%\Glass\Windows Battery Low.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Battery Low.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\LowBatteryAlarm\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Battery Low.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MailBeep\.Current",,0x0,"%10%\media\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MailBeep\.Default",,0x0,"%10%\media\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MailBeep\Glass",,0x0,"%10%\%MS%\Glass\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MailBeep\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MailBeep\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Notify.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\Maximize\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Maximize\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Maximize\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Maximize\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Restore.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\Maximize\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Restore.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuCommand\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuCommand\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuCommand\Glass",,0x0,"%10%\%MS%\Glass\Windows Menu Command.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuCommand\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Menu Command.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuCommand\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Menu Command.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuPopup\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuPopup\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\MenuPopup\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Minimize\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Minimize\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Minimize\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Minimize\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Minimize.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\Minimize\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Minimize.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\Open\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Open\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\Open\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\PrintComplete\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\PrintComplete\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\PrintComplete\Glass",,0x0,"%10%\%MS%\Glass\Windows Print Complete.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\PrintComplete\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Print Complete.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\PrintComplete\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Print Complete.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreDown\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreDown\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreDown\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreDown\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Minimize.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreDown\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Minimize.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreUp\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreUp\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreUp\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreUp\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Restore.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\RestoreUp\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Restore.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\ShowBand",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\ShowBand\.current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\ShowBand\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\ShowBand\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Current",,0x0,"%10%\media\Windows Error.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemAsterisk\.Default",,0x0,"%10%\media\Windows Error.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemAsterisk\Glass",,0x0,"%10%\%MS%\Glass\Windows Error.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemAsterisk\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Error.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemAsterisk\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Error.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current",,0x0,"%10%\media\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExclamation\.Default",,0x0,"%10%\media\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExclamation\Glass",,0x0,"%10%\%MS%\Glass\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExclamation\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExclamation\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExit\.Current",,0x0,"%10%\media\Windows Shutdown.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExit\.Default",,0x0,"%10%\media\Windows Shutdown.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExit\Glass",,0x0,"%10%\%MS%\Glass\Windows Shutdown.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExit\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Shutdown.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemExit\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Shutdown.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemHand\.Current",,0x0,"%10%\media\Windows Critical Stop.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemHand\.Default",,0x0,"%10%\media\Windows Critical Stop.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemHand\Glass",,0x0,"%10%\%MS%\Glass\Windows Critical Stop.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemHand\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Critical Stop.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemHand\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Critical Stop.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemNotification\.Current",,0x0,"%10%\media\Windows Balloon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemNotification\.Default",,0x0,"%10%\media\Windows Balloon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemNotification\Glass",,0x0,"%10%\%MS%\Glass\Windows Balloon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemNotification\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Balloon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemNotification\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Balloon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemQuestion\.Current",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemQuestion\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemQuestion\Glass",,0x0,"%10%\%MS%\Glass\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemQuestion\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\SystemQuestion\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Exclamation.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogoff\.Current",,0x0,"%10%\media\Windows Logoff Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogoff\.Default",,0x0,"%10%\media\Windows Logoff Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogoff\Glass",,0x0,"%10%\%MS%\Glass\Windows Logoff Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogoff\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Logoff Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogoff\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Logoff.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogon\.Current",,0x0,"%10%\media\Windows Logon Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogon\.Default",,0x0,"%10%\media\Windows Logon Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogon\Glass",,0x0,"%10%\%MS%\Glass\Windows Logon Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogon\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Logon Sound.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsLogon\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Logon.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsUAC\.Current",,0x0,"%10%\media\Windows User Account Control.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsUAC\.Default",,0x0,"%10%\media\Windows User Account Control.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsUAC\Glass",,0x0,"%10%\%MS%\Glass\Windows User Account Control.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsUAC\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows User Account Control.wav"
+HKCU,"AppEvents\Schemes\Apps\.Default\WindowsUAC\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows User Account Control.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer",,0x0,"Windows Explorer"
+HKCU,"AppEvents\Schemes\Apps\Explorer","DispFileName",0x0,"@mmsys.cpl,-5854"
+HKCU,"AppEvents\Schemes\Apps\Explorer\ActivatingDocument",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\ActivatingDocument\.current",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\ActivatingDocument\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\ActivatingDocument\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup\.current",,0x0,"%10%\media\Windows Pop-up Blocked.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup\.default",,0x0,"%10%\media\Windows Pop-up Blocked.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup\Glass",,0x0,"%10%\%MS%\Glass\Windows Pop-up Blocked.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Pop-up Blocked.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\BlockedPopup\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Pop-up Blocked.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Current",,0x0,"%10%\media\Windows Recycle.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\.Default",,0x0,"%10%\media\Windows Recycle.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\Glass",,0x0,"%10%\%MS%\Glass\Windows Recycle.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Recycle.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Recycle.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxError\.current",,0x0,"%10%\media\ding.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxError\.default",,0x0,"%10%\media\ding.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxError\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxLineRings\.current",,0x0,"%10%\media\Windows Ringin.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxLineRings\.default",,0x0,"%10%\media\Windows Ringin.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxLineRings\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxLineRings\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Ringin.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxSent\.current",,0x0,"%10%\media\tada.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxSent\.default",,0x0,"%10%\media\tada.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FaxSent\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered\.current",,0x0,"%10%\media\Windows Feed Discovered.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered\.default",,0x0,"%10%\media\Windows Feed Discovered.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered\Glass",,0x0,"%10%\%MS%\Glass\Windows Feed Discovered.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Feed Discovered.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\FeedDiscovered\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Feed Discovered.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\MoveMenuItem",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\MoveMenuItem\.current",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\MoveMenuItem\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\MoveMenuItem\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating\.Current",,0x0,"%10%\media\Windows Navigation Start.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating\.Default",,0x0,"%10%\media\Windows Navigation Start.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating\Glass",,0x0,"%10%\%MS%\Glass\Windows Navigation Start.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Navigation Start.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\Navigating\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Navigation Start.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\SearchProviderDiscovered",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\SearchProviderDiscovered\.current",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\SearchProviderDiscovered\.Default",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\SearchProviderDiscovered\Glass",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand",,0x0
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand\.current",,0x0,"%10%\media\Windows Information Bar.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand\.default",,0x0,"%10%\media\Windows Information Bar.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand\Glass",,0x0,"%10%\%MS%\Glass\Windows Information Bar.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand\Pearl",,0x20000,"%10%\%MS%\Pearl\Windows Information Bar.wav"
+HKCU,"AppEvents\Schemes\Apps\Explorer\SecurityBand\Tinker",,0x20000,"%10%\%MS%\Tinker\Windows Information Bar.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr",,0x0,"Speech Recognition"
+HKCU,"AppEvents\Schemes\Apps\sapisvr","DispFileName",0x0,"@%10%\System32\speech\speechux\sapi.cpl,-5555"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\DisNumbersSound\.current",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\DisNumbersSound\.default",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\DisNumbersSound\Glass",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\DisNumbersSound\Pearl",,0x20000,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\DisNumbersSound\Tinker",,0x20000,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOffSound\.current",,0x0,"%10%\media\Speech Off.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOffSound\.default",,0x0,"%10%\media\Speech Off.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOffSound\Glass",,0x0,"%10%\media\Speech Off.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOffSound\Pearl",,0x20000,"%10%\media\Speech Off.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOffSound\Tinker",,0x20000,"%10%\media\Speech Off.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOnSound\.current",,0x0,"%10%\media\Speech On.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOnSound\.default",,0x0,"%10%\media\Speech On.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOnSound\Glass",,0x0,"%10%\media\Speech On.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOnSound\Pearl",,0x20000,"%10%\media\Speech On.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubOnSound\Tinker",,0x20000,"%10%\media\Speech On.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubSleepSound\.current",,0x0,"%10%\media\Speech Sleep.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubSleepSound\.default",,0x0,"%10%\media\Speech Sleep.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubSleepSound\Glass",,0x0,"%10%\media\Speech Sleep.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubSleepSound\Pearl",,0x20000,"%10%\media\Speech Sleep.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\HubSleepSound\Tinker",,0x20000,"%10%\media\Speech Sleep.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\MisrecoSound\.current",,0x0,"%10%\media\Speech Misrecognition.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\MisrecoSound\.default",,0x0,"%10%\media\Speech Misrecognition.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\MisrecoSound\Glass",,0x0,"%10%\media\Speech Misrecognition.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\MisrecoSound\Pearl",,0x20000,"%10%\media\Speech Misrecognition.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\MisrecoSound\Tinker",,0x20000,"%10%\media\Speech Misrecognition.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\PanelSound\.current",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\PanelSound\.default",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\PanelSound\Glass",,0x0,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\PanelSound\Pearl",,0x20000,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Apps\sapisvr\PanelSound\Tinker",,0x20000,"%10%\media\Speech Disambiguation.wav"
+HKCU,"AppEvents\Schemes\Names\.Default",,0x0,"Windows Default"
+HKCU,"AppEvents\Schemes\Names\.None",,0x0,"@mmres.dll,-801"
+HKCU,"AppEvents\Schemes\Names\Glass",,0x0,"Glass"
+HKCU,"AppEvents\Schemes\Names\Pearl",,0x0,"Pearl"
+HKCU,"AppEvents\Schemes\Names\Tinker",,0x0,"Tinker"
+
+[Strings]
+MS  = "Media\Schemes"
