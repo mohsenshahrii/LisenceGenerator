@@ -15,6 +15,11 @@ using System.Windows.Shapes;
 
 namespace LisenceGenerator
 {
+    //lmlknl
+    //!!!!!!!!!!!!!!!!!!!!!!!!
+    //------------------
+    //++++++++++++++
+    //comment on 3/30/2022
     /// <summary>
     
     /// Interaction logic for MainWindow.xaml
