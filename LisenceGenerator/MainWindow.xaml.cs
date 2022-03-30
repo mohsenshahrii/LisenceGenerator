@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace LisenceGenerator
 {
+    //lmlknl
     //!!!!!!!!!!!!!!!!!!!!!!!!
     //------------------
     //++++++++++++++
